@@ -21,6 +21,7 @@ Deploying to Chromatic is required as we are going to be accessing the design sy
 
 ###  Manual deploy
 
+Run the first deploy manually to reset token in local script.
 ```shell
 npx chromatic --project-token=<chromatic-project-token>
 ```

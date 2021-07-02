@@ -1,4 +1,4 @@
-import PrimaryButton from "./PrimaryButton";
+import PrimaryButton from "../components/PrimaryButton";
 
 export default {
   title: "Buttons/Primary Button",
