@@ -41,9 +41,9 @@ Automatic deploys trigger on push to master branch. Deploys are handled through 
 2.  **build design system as a package:**
 
     ```shell
-    yarn build
+    yarn build-components
     ```
-    Builds contents of /src folder into /dist
+    Builds contents of /components folder into /dist
 
 3.  **Add NPM package metadata:**
 
