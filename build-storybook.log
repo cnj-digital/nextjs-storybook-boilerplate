@@ -1,0 +1,21 @@
+
+> nextjs-storybook-boilerplate@0.1.0 build-storybook
+> build-storybook "--output-dir" "/var/folders/9x/g7cvqqkd2sndczr4__l3y0sm0000gp/T/chromatic--67453-1Thb7enrH6nm"
+
+info @storybook/react v6.3.2
+info 
+info => Cleaning outputDir: /var/folders/9x/g7cvqqkd2sndczr4__l3y0sm0000gp/T/chromatic--67453-1Thb7enrH6nm
+ERR! Error: No configuration files have been found in your configDir (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/.storybook).
+ERR! Storybook needs either a "main" or "config" file.
+ERR!     at validateConfigurationFiles (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-common/dist/cjs/utils/validate-configuration-files.js:50:11)
+ERR!     at loadCustomPresets (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-common/dist/cjs/utils/load-custom-presets.js:19:62)
+ERR!     at loadAllPresets (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-common/dist/cjs/presets.js:310:105)
+ERR!     at buildStaticStandalone (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-server/dist/cjs/build-static.js:96:48)
+ERR!     at async buildStatic (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-server/dist/cjs/build-static.js:161:5)
+ERR!  Error: No configuration files have been found in your configDir (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/.storybook).
+ERR! Storybook needs either a "main" or "config" file.
+ERR!     at validateConfigurationFiles (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-common/dist/cjs/utils/validate-configuration-files.js:50:11)
+ERR!     at loadCustomPresets (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-common/dist/cjs/utils/load-custom-presets.js:19:62)
+ERR!     at loadAllPresets (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-common/dist/cjs/presets.js:310:105)
+ERR!     at buildStaticStandalone (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-server/dist/cjs/build-static.js:96:48)
+ERR!     at async buildStatic (/Users/lovrokalan/CNJ/nextjs-storybook-boilerplate/node_modules/@storybook/core-server/dist/cjs/build-static.js:161:5)
