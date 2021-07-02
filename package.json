@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build-components": "cross-env BABEL_ENV=production babel components -d dist --extensions '.ts,.tsx'",
+    "build-components": "cross-env BABEL_ENV=production babel components -d dist --extensions '.js,.jsx,.ts,.tsx'",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=c1af668fba5b"
