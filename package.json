@@ -10,7 +10,8 @@
     "build-components": "cross-env BABEL_ENV=production babel components -d dist --extensions '.js,.jsx,.ts,.tsx'",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=c1af668fba5b"
+    "chromatic": "npx chromatic --project-token=c1af668fba5b",
+    "release": "auto shipit --base-branch=master"
   },
   "dependencies": {
     "next": "11.0.1",
@@ -26,6 +27,7 @@
     "@storybook/addon-links": "^6.3.2",
     "@storybook/react": "^6.3.2",
     "@types/react": "17.0.13",
+    "auto": "^10.29.3",
     "autoprefixer": "^9",
     "chromatic": "^5.9.2",
     "cross-env": "^7.0.3",

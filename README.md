@@ -30,7 +30,7 @@ Get project-token on chromatic.com
 
 ###  Automatic deploy
 
-Automatic deploys trigger on push to master branch. Deploys are handled through Github actions, all you need to do is add a Github repo secret with key: CHROMATIC_PROJECT_TOKEN and value: <chromatic-project-token>
+Automatic deploys trigger on push to repo. Deploys are handled through Github actions, all you need to do is add a Github repo secret with key: CHROMATIC_PROJECT_TOKEN and value: <chromatic-project-token>
 
 ##  Distribute the design system as an NPM package
 
@@ -95,7 +95,7 @@ module.exports = {
   refs: {
     'design-system': {
       title: 'Our design system',
-      //👇 The url provided by Vercel when it was deployed
+      //👇 The url provided by Chromatic when it was deployed
       url: 'https://published-url.com',
     },
   }
